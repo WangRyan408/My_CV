@@ -1,75 +1,89 @@
  
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ryan's Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="https://images.thestar.com/NuBcuk9UrmzG7S8ZLT41rWLZjDs=/968x968/smart/filters:cb(1548689313694)/https://www.thestar.com/content/dam/thestar/entertainment/television/analysis/2019/01/25/is-this-the-breakout-year-for-asian-men-in-leading-roles/simu_liu.jpg"
-                alt="This is actually Simu Liu"
-                width="200"
-                height="200"></td>
-            <td><h1>Ryan Wang</h1>
-            <p><em>Yes I know that's a picture of Simu Liu. I'm too lazy to grab my own.</em></p>
-            <p>Not much experience so far. Hopefully that will change.</p>
-            </td>
-        </tr>
-    </table>
-
-
-    <p><em>Education</em></p>
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Education</th>
-            </tr>
-
-        </thead>
-        <tbody>
-            <tr>
-                <td>2015-2019</td>
-                <td>Student at EVHS</td>
-            </tr>
-            <tr>
-                <td>2019-Present</td>
-                <td>Student at De Anza College</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-
-
-    </table>
-    <br><br>
-    <p><h3>Skills</h3></p>
-    <table border="2">
-
-        <tbody>
-            <tr>
-                <td>Procrastination &#x1F31F;&#x1F31F;&#x1F31F;&#x1F31F;&#x1F31F;</td>
-                <td>Sleep &#x1F31F;&#x1F31F;</td>
-            </tr>
-            <tr>
-                <td>Addiction &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x1F31F;&#x1F31F;&#x1F31F;&#x1F31F;</td>
-                <td>Student at De Anza College</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-
-
-    </table>
-    <hr>
-    <a href="contactme.html">Contact Me</a>
-    <a href="hobbies.html">My Hobbies</a>
-</body>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b9e35346a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC Personal Portfolio</title>
+  </head>
+  <body>
+    <main>
+      <section id="topbar">
+        <ul id="navbar">
+          <li class="nav-link"><a href="#welcome-section" class="test">About</a></li>
+          <li class="nav-link"><a href="#projects" class="test">Work</a></li>
+          <li class="nav-link"><a href="#end" class="test">Contact</a></li>
+        </ul>
+      </section>
+      <section id="welcome-section">
+        <div id="welcome-message">
+          <h1 class="heading">Welcome to my portfolio!</h1>
+          <p class="color"><em>Currently learning Web Development!<em></p>
+          <p id="author"><em>-Insert Name here</em></p>
+        </div>
+      </section>
+        <section id="projects">
+          <h2 class="heading">Here is some of my work!</h2>
+          <div class="grid" id="grid">
+            <div class="project-tile work1">
+              <img src="https://shots.codepen.io/Wang_Gang/pen/LYOXPBK-512.jpg?version=1646766955" alt="Mock Product Page"/>
+              <div class="subtitle-color">
+                <h2 class="subtitle">Mock Product Page</h2>
+                </div>
+            </div>
+            <div class="project-tile work2">
+              <img src="https://shots.codepen.io/Wang_Gang/pen/qBVQWyG-512.jpg?version=1646179118" alt="Mock Technical Documentation"/>
+              <div class="subtitle-color">
+                <h2 class="subtitle">Mock Technical Documentation</h2>
+                </div>
+            </div>
+            <div class="project-tile work3">
+              <img src="https://shots.codepen.io/Wang_Gang/pen/dyZKWQz-512.jpg?version=1645852346" alt="Mock Tribute Page"/>
+              <div class="subtitle-color">
+                <h2 class="subtitle">Mock Tribute Page</h2>
+                </div>
+            </div>
+            <div class="project-tile work4">
+              <img src="https://shots.codepen.io/Wang_Gang/pen/VwrZPwR-512.jpg?version=1645597819" alt="Mock Survey Form"/>
+              <div class="subtitle-color">
+                <h2 class="subtitle">Mock Survey Form</h2>
+                </div>
+            </div>
+          </div>
+          <a href="https://codepen.io/Wang_Gang" class="profile" target="_blank">View All</a>
+        </section>
+        <section id="end">
+          <h1 class="heading">Interested in working together?</h1>
+          <p class="color">Send me a DM!</p>
+          <div id="icons">
+            <a href="https://github.com/Wangstaboi" target="_blank" class="rick" id="profile-link">
+              <i class="fa-brands fa-github fa-3x"></i>
+            <p class="links">Github</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="rick">
+            <i class="fa-brands fa-discord fa-3x"></i>
+            <p class="links">Discord</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="rick">
+            <i class="fa-brands fa-facebook-messenger fa-3x"></i>
+            <p class="links">Messenger</p>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="rick">
+            <i class="fa-brands fa-reddit fa-3x"></i>
+            <p class="links">Reddit</p>
+            </a>
+          </div>
+        </section>
+        <div class="line"></div>
+        <footer id="foot" class="foot">
+            <p>**This is not a real portfolio. All projects and contact details are fake. Give a heart if you liked the contact links though ;)</p>
+          <p>Created by Me; for freeCodeCamp</p>
+          </footer>
+    </main>
+  </body>
 </html>
