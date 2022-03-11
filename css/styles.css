@@ -111,6 +111,11 @@
     max-width: 1080px;
   }
   
+  .project-l {
+    text-decoration: none;
+    color: white;
+  }
+
   img {
     margin: 0 auto -5px;
     padding: 0;
